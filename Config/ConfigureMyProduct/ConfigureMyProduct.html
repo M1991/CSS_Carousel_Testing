@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="en-GB" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Online Configurator</title>
+<!--  Nexthermal fav icon -->
+
+<link href="Nexthermal Button 250px.jpg" rel="shortcut icon">
+<link href="Nexthermal Button 250px.jpg" rel="apple-touch-icon-precomposed">
+<link rel="stylesheet" href="nextCustomOne.css" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.1/modernizr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.configuremyproduct.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<!--  SLIDER CONTENTS AND SIZING WITH CARETS  --> 
+<link rel='stylesheet' id='rs-plugin-settings-css'  href="nextSliderNav.css" media='all' /> 
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largebgblue:before{background:url("/wp-content/themes/configuremyproduct/icons/gear.svg") no-repeat scroll center center / 100% auto rgba(0,0,0,0);  content:"";  display:inline-block;  height:30px;  margin-right:5px;  position:relative;  top:-2px;  vertical-align:middle;  width:30px}
+</style>
+
+<link rel='stylesheet' id='normalize-css'  href='nextNormalise.css' media='all' />
+<link rel='stylesheet' id='html5blank-css'  href='nextHTMLDisp.css' media='all' />
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-548464-7']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/themes/configuremyproduct/js/jquery-2.1.1.min.js?ver=2.1.1'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/themes/configuremyproduct/js/lib/modernizr-2.7.1.min.js?ver=2.7.1'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/alphanum.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/chosen/chosen.js?ver=1.1.0'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/context/contextmenu.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/footable.js?ver=2.0.1.2'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/filertify.js?ver=0.3.11'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/soundmanager2.js?ver=2.97a.20130101'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fileaway_mgmt = {"ajaxurl":"http:\/\/www.configuremyproduct.com\/wp-admin\/admin-ajax.php","nonce":"420ee15a41","device":"desktop","no_results":"Nothing found.","cancel_link":"Cancel","save_link":"Save","proceed_link":"Proceed","delete_check":"Delete?","ok_label":"OK","confirm_label":"I'm Sure","cancel_label":"Nevermind","file_singular":"file","file_plural":"files","delete_confirm":"You are about to permanently delete numfiles. Are you sure you're OK with that?","tamper1":"Sorry, there was a problem verifying the correct path to the files.","tamper2":"There was an error completing your request. The path to the directory has not been properly defined.","tamper3":"Sorry, but the name you specified cannot be processed.","tamper4":"An error has been triggered.","no_files_selected":"No files have been selected. Click on the table rows of the files you wish to select.","no_files_chosen":"No files have been chosen.","no_action":"No action has been selected.","no_destination":"No destination directory has been selected.","no_subdir_name":"You did not specify a name for your sub-directory.","unreadable_file":"Sorry, a file you have specified could not be read.","build_path":"Please build the path to your destination directory.","no_upload_support":"Your browser does not support the File Upload API. Please update.","exceeds_size":"This file exceeds the prettymax max file size.","type_not_permitted":"This file type is not permitted.","view_all_permitted":"View all permitted file types.","view_all_prohibited":"View all prohibited file types.","double_dots_override":"You may not use double dots or attempt to override the upload directory.","double_dots":"You may not use double dots in the filename.","creation_disabled":"Sub-directory creation is disabled.","no_override":"You may not attempt to override the upload directory.","multi_type":"You may not specify a script filetype prior to a non-script filetype.","upload_failure":"Sorry about that, but filename could not be uploaded.","rename_column":"Rename Column","delete_column":"Delete Column","insert_col_before":"Insert New Column Before","insert_col_after":"Insert New Column After","insert_row":"Insert New Row","delete_row":"Delete Row","save_backup":"Save Backup","new_column_name":"New Column Name","atleast_one_column":"There must be at least one column at all times.","atleast_one_row":"There must be at least one row at all times.","next_label":"Next","create_label":"Create","new_file_name":"New File Name","specify_file_name":"You must specify a file name.","specify_column_name":"You must specify at least one column name.","column_names":"Column Names, Comma-separated"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/management.js?ver=3.8.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fileaway_stats = {"ajaxurl":"http:\/\/www.configuremyproduct.com\/wp-admin\/admin-ajax.php","nonce":"32a92eb2c9"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/file-away/lib/js/stats.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.5'></script>
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.5'></script>
+<link rel='https://api.w.org/' href='http://www.configuremyproduct.com/?rest_route=/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.configuremyproduct.com/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fwww.configuremyproduct.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.configuremyproduct.com/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fwww.configuremyproduct.com%2F&#038;format=xml" />
+<script> var fileaway_filetype_groups = {'adobe' : ['abf', 'aep', 'afm', 'ai', 'as', 'eps', 'fla', 'flv', 'fm', 'indd', 'pdd', 'pdf', 'pmd', 'ppj', 'prc', 'ps', 'psb', 'psd', 'swf'], 'application' : ['bat', 'dll', 'exe', 'msi'], 'audio' : ['aac', 'aif', 'aifc', 'aiff', 'amr', 'ape', 'au', 'bwf', 'flac', 'iff', 'gsm', 'la', 'm4a', 'm4b', 'm4p', 'mid', 'mp2', 'mp3', 'mpc', 'ogg', 'ots', 'ram', 'raw', 'rex', 'rx2', 'spx', 'swa', 'tta', 'vox', 'wav', 'wma', 'wv'], 'compression' : ['7z', 'a', 'ace', 'afa', 'ar', 'bz2', 'cab', 'cfs', 'cpio', 'cpt', 'dar', 'dd', 'dmg', 'gz', 'lz', 'lzma', 'lzo', 'mar', 'rar', 'rz', 's7z', 'sda', 'sfark', 'shar', 'tar', 'tgz', 'xz', 'z', 'zip', 'zipx', 'zz'], 'css' : ['css', 'less', 'sass', 'scss'], 'image' : ['bmp', 'dds', 'exif', 'gif', 'hdp', 'hdr', 'iff', 'jfif', 'jpeg', 'jpg', 'jxr', 'pam', 'pbm', 'pfm', 'pgm', 'png', 'pnm', 'ppm', 'raw', 'rgbe', 'tga', 'thm', 'tif', 'tiff', 'webp', 'wdp', 'yuv'], 'msdoc' : ['doc', 'docm', 'docx', 'dot', 'dotx'], 'msexcel' : ['xls', 'xlsm', 'xlsb', 'xlsx', 'xlt', 'xltm', 'xltx', 'xlw'], 'openoffice' : ['dbf', 'dbf4', 'odp', 'ods', 'odt', 'stc', 'sti', 'stw', 'sxc', 'sxi', 'sxw'], 'powerpoint' : ['pot', 'potm', 'potx', 'pps', 'ppt', 'pptm', 'pptx', 'pub'], 'script' : ['asp', 'cfm', 'cgi', 'clas', 'class', 'cpp', 'htm', 'html', 'java', 'js', 'php', 'pl', 'py', 'rb', 'shtm', 'shtml', 'xhtm', 'xhtml', 'xml', 'yml'], 'text' : ['123', 'csv', 'log', 'psw', 'rtf', 'sql', 'txt', 'uof', 'uot', 'wk1', 'wks', 'wpd', 'wps'], 'video' : ['avi', 'divx', 'mov', 'm4p', 'm4v', 'mkv', 'mp4', 'mpeg', 'mpg', 'ogv', 'qt', 'rm', 'rmvb', 'vob', 'webm', 'wmv']}; var ssfa_filetype_icons = {'adobe' : '&#x21;', 'application' : '&#x54;', 'audio' : '&#x43;', 'compression' : '&#x27;', 'css' : '&#x28;', 'image' : '&#x31;', 'msdoc' : '&#x23;', 'msexcel' : '&#x24;', 'openoffice' : '&#x22;', 'powerpoint' : '&#x26;', 'script' : '&#x25;', 'text' : '&#x2e;', 'video' : '&#x57;', 'unknown' : '&#x29;'} </script>		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = 'c61273a826';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+			//		jQuery.ajax({
+				//		type:"post",
+					//	url:"http://www.configuremyproduct.com/wp-admin/admin-ajax.php",
+					/*	dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});*/
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+		</head>
+
+<!--  LOGO  HERE  img src-->
+<body class="home page page-id-101 page-template page-template-page-templates page-template-home page-template-page-templateshome-php">
+<div class="fullWidth sticky logo-bg" id="top"><div class="row"> <div class="large-12 medium-8 columns"><a class="smooth" href="/"> <img class="logo" src="Nexthermal Email Logo.jpg 100w"> </a></div></div></div>
+<!-- /header --> 
+
+
+<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:615px;">
+<!-- START REVOLUTION SLIDER 4.6.5 fullwidth mode -->
+	<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:615px;height:615px;">
+<ul>	<!-- SLIDE  -->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="Axial Clamp and Hotlock.jpg"  alt="cupboard-hq"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="left center">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption largebgblue tp-fade tp-resizeme  pulse-shrink" 
+			 data-x="center" data-hoffset="-14" 
+			 data-y="center" data-voffset="60" 
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' style="color:white">Configure Now</a> 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption largewhitebgsmaller tp-fade tp-resizeme" 
+			 data-x="229" 
+			 data-y="223"  
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Variable sizes cartridge heater
+<h4>to fit your requirements perfectly</h4> 
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="Two Pressed in Brass in process - SMALL-min.jpg"  alt="scissorlift-highres"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="left center">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption largebgblue tp-fade tp-resizeme  pulse-shrink" 
+			 data-x="center" data-hoffset="-24" 
+			 data-y="center" data-voffset="64" 
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' style="color:white">Configure now</a> 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption largewhitebgsmaller tp-fade tp-resizeme" 
+			 data-x="233" 
+			 data-y="230"  
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Customizable coil heaters 
+<h4>that meet your daily needs</h4> 
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="Moisture Resistant Coil Heater-min.jpg"  alt="truck"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="left center">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption largebgblue tp-fade tp-resizeme  pulse-shrink" 
+			 data-x="center" data-hoffset="-14" 
+			 data-y="center" data-voffset="60" 
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' style="color:white">Create one now</a> 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption largewhitebgsmaller tp-fade tp-resizeme" 
+			 data-x="258" 
+			 data-y="221"  
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Configure your own heater
+<h4>with new moisture resitance features</h4> 
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="Nextflex Radial in Manifold_2017_Nexthermal.jpg"  alt="picture-frame1"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="left center">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption largebgblue tp-fade tp-resizeme  pulse-shrink" 
+			 data-x="center" data-hoffset="-14" 
+			 data-y="center" data-voffset="60" 
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' style="color:white">Create one now</a> 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption largewhitebgsmaller tp-fade tp-resizeme" 
+			 data-x="186" 
+			 data-y="223"  
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Create your own Tubular heater
+<h4>Nextflex tubulars</h4> 
+		</div>
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom"></div>	</div>
+
+			<style scoped>.tp-caption.largebgblue,.largebgblue{font-size:20px;line-height:19px;font-weight:300;font-family:Roboto,Helvetica,San-serif;color:#ffffff;text-decoration:none;padding:10px 20px 10px 20px;background-color:rgba(2,134,205,1);border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.largewhitebgsmaller,.largewhitebgsmaller{font-size:40px;line-height:70px;font-weight:300;font-family:"Source Sans Pro";color:#000000;text-align:center;text-decoration:none;padding:0px 20px 0px 20px;text-shadow:none;background-color:rgba(255,255,255,1);border-width:0px;border-color:rgb(0,0,0);border-style:none}</style>
+
+			<script type="text/javascript">
+
+				/******************************************
+					-	PREPARE PLACEHOLDER FOR SLIDER	-
+				******************************************/
+				
+
+				var setREVStartSize = function() {
+					var	tpopt = new Object();
+						tpopt.startwidth = 960;
+						tpopt.startheight = 615;
+						tpopt.container = jQuery('#rev_slider_1_1');
+						tpopt.fullScreen = "off";
+						tpopt.forceFullWidth="off";
+
+					tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+				};
+
+				/* CALL PLACEHOLDER */
+				setREVStartSize();
+
+
+				var tpj=jQuery;
+				tpj.noConflict();
+				var revapi1;
+
+				tpj(document).ready(function() {
+
+				if(tpj('#rev_slider_1_1').revolution == undefined){
+					revslider_showDoubleJqueryError('#rev_slider_1_1');
+				}else{
+				   revapi1 = tpj('#rev_slider_1_1').show().revolution(
+					{	
+												dottedOverlay:"none",
+						delay:9000,
+						startwidth:960,
+						startheight:615,
+						hideThumbs:200,
+
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:4,
+						
+												
+						simplifyAll:"off",
+
+						navigationType:"bullet",
+						navigationArrows:"solo",
+						navigationStyle:"round",
+
+						touchenabled:"on",
+						onHoverStop:"off",
+						nextSlideOnWindowFocus:"off",
+
+						swipe_threshold: 75,
+						swipe_min_touches: 1,
+						drag_block_vertical: false,
+						
+												
+												
+						keyboardNavigation:"off",
+
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						shadow:0,
+						fullWidth:"on",
+						fullScreen:"off",
+
+												spinner:"spinner4",
+												
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						shuffle:"off",
+
+						autoHeight:"off",
+						forceFullWidth:"off",
+						
+						
+						
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,
+						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+
+												hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0					});
+
+
+
+									}
+				});	/*ready*/
+
+			</script>
+
+
+			<style type="text/css">
+	#rev_slider_1_1_wrapper .tp-loader.spinner4 div { background-color: #FFFFFF !important; }
+</style>
+</div><!-- END REVOLUTION SLIDER --><div class="fullWidth nav-bg">
+  <nav class="top-bar row" data-topbar data-options="sticky_on: small-up">
+    <ul class="title-area small-centered">
+    </ul>
+    
+    <!-- TOPBAR SECTION -->
+    <section class="top-bar-section" style="width:100%;white-space: nowrap;display: table;" id="section-driveworks">
+      <ul class="center" style="display: table-cell;vertical-align: middle;">
+        <li class="active"></li>
+        <li class="has-dropdown"></li>
+        <ul class="title-area" style="height: 80px;">
+          <a class="hide" href="http://www.nexthermal.com/"><img class="logo" src="/wp-content/themes/configuremyproduct/img/logo.svg"></a>
+          
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+        </ul>
+        <ul style="display: inline-block;padding-top: 7px;">
+		<!--   ADD LINKS FOR NAVIGATION FROM NAV -->
+          <ul id="menu-mainmenu" class="menu"><li id="menu-item-125" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-125"><a href="#">Create your own</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="#">Our Technology</a></li>
+<li id="menu-item-298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-298"><a href="#" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://www.nexthermal.com', 'Contact Us']);" >Contact Us</a></li>
+</ul>        </ul>
+      </ul>
+    </section>
+  </nav>
+</div>
+<body>
+<section class="section-driveworks">
+  <div id="fullWidth" class="choose-project">
+    <div class="middle center-content table-area" style="height: 430px;">
+      <div class="row center-content" style="vertical-align:middle;display:table-cell;" >
+        <div class="large-16 medium-16 small-16 columns"> <i class="icon-star-empty-1" style="margin-right: 15px;"></i>
+          <h2><img class="icon-size" src="Light-Bulb.png" alt="" /> Register &amp; Design your own heater…</h2>
+<p>Select a product from our showcase below to start <strong>your</strong> custom experience</p>
+          <hr>
+        </div>
+        <div class="row confOptionsContainer">
+	<!--  Image section 1 ================================================================== -->		  	
+                              <div class="large-4 medium-8 columns">
+            <div class="image-container image-container-num2">
+              <div class="image image-num2">
+                <a href="#">
+                <img src="pellet_stove_oct10.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cartridge Heater" srcset="pellet_stove_oct10.jpg 1900w, pellet_stove_oct10.jpg 250w, pellet_stove_oct10.jpg 700w, pellet_stove_oct10.jpg 120w" sizes="(max-width: 1900px) 100vw, 1900px" /> </a> </div>
+              <div class="caption caption-num2">
+                <h4><a href="#" title="Cartridge Heater">
+                  Cartridge Heater                 </a></h4>
+                Select size and configure your heater </div>
+              <div class="configuratorCardFooter">
+                <div class="configuratorCardContentType"><img class="configuratorCardContentTypeIcon" src="gear if.png"><span>Cartridge Heater</span></div>
+                <div class="configuratorCardContentDuration"><span>Order Now </span></div>
+              </div>
+            </div>
+          </div>
+		  <!--  Image section 2  ================================================================== -->		  
+                    <div class="large-4 medium-8 columns">
+            <div class="image-container image-container-num2">
+              <div class="image image-num2">
+                                <a href="#">
+                <img src="Two Pressed in Brass in process.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Coil Heater" srcset="Two Pressed in Brass in process.jpg 1900w, Two Pressed in Brass in process.jpg 250w, Two Pressed in Brass in process.jpg 700w, Two Pressed in Brass in process.jpg 120w" sizes="(max-width: 1900px) 100vw, 1900px" />                </a> </div>
+              <div class="caption caption-num2">
+                <h4><a href="#" title="Coil Heater">
+                  Coil Heater                 </a></h4>
+                Enter the sizes you need to suit your space as you like.. </div>
+              <div class="configuratorCardFooter">
+                <div class="configuratorCardContentType"><img class="configuratorCardContentTypeIcon" src="gear if.png"><span>Coil Heater</span></div>
+                <div class="configuratorCardContentDuration"><span>Order Now</span></div>
+              </div>
+            </div>
+          </div>
+          
+<!--  Image section 3 
+			----  TUBULAR  HEATER
+================================================================== -->		  		  
+		  <div class="large-4 medium-8 columns">
+            <div class="image-container image-container-num2">
+              <div class="image image-num2">
+                                <a href="#">
+                <img src="Figure 1_Nextflex Radial in Manifold_2017.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Nextflex Tubular Heater" srcset="Figure 1_Nextflex Radial in Manifold_2017.jpg 1900w, Figure 1_Nextflex Radial in Manifold_2017.jpg 250w, Figure 1_Nextflex Radial in Manifold_2017.jpg 700w, Figure 1_Nextflex Radial in Manifold_2017.jpg 120w" sizes="(max-width: 1900px) 100vw, 1900px" />               </a> </div>
+              <div class="caption caption-num2">
+                <h4><a href="#" title="Tubular Heater">
+                  Nextflex                </a></h4>
+                Choose your heater </div>
+              <div class="configuratorCardFooter">
+                <div class="configuratorCardContentType"><img class="configuratorCardContentTypeIcon" src="gear if.png"><span>Nextflex</span></div>
+                <div class="configuratorCardContentDuration"><span>Order Now </span></div>
+              </div>
+            </div>
+          </div>
+<!--  Image section 4 ================================================================== -->		  
+          <div class="large-4 medium-8 columns">
+            <div class="image-container image-container-num2">
+              <div class="image image-num2">
+                <a href="#">
+               <img src="Manifold type TC.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Thermosensors" srcset="Manifold type TC.jpg 1900w, Manifold type TC.jpg 250w, Manifold type TC.jpg 700w, Manifold type TC.jpg 120w" sizes="(max-width: 1900px) 100vw, 1900px" />                  </a> </div>
+              <div class="caption caption-num2">
+                <h4><a href="#" title="Thermosensors">
+                  Sensors                 </a></h4>
+                Available in any size, choose your frame style, mount and glazing options too </div>
+              <div class="configuratorCardFooter">
+                <div class="configuratorCardContentType"><img class="configuratorCardContentTypeIcon" src="gear if.png"><span>Sensors</span></div>
+                <div class="configuratorCardContentDuration"><span>Order Now                  </span></div>
+              </div>
+            </div>
+          </div>
+                                      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-featured featured-image">
+  <div id="fullWidth">
+    <div class="middle row table-area" style="height: 600px;">
+      <div class="bg"></div>
+      <div class="row" style="vertical-align:middle;display:table-cell;">
+        <div class="large-6 medium-7 small-16 columns module already-visible come-in table-area section-600">
+          <div class="valign-text small-only-text-center" style="display:table-cell;vertical-align: middle;">
+            <h2><img class="icon-size" src="gear mid.png" alt="" width="27" height="27" /> I want it now and I want it MY way!</h2>
+<p>Demand has never been higher for customized and personalized goods. More people and organizations are demanding products to their own specification. This can be hard to achieve and expensive to deliver. However, now with Nexthermal you &amp; your customers can design, customize, view in 3D and place an order for your products directly from your website.</p>
+          </div>
+        </div>
+        <div class="large-7 large-offset-2 medium-8 small-15 columns table-area section-600">
+          <div class="valign-text" style="display:table-cell;vertical-align: middle;"> <img src="sample assembly.jpg"/> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--   video section to add video and check the MIME types  -->
+<section class="section-about">
+  <div id="fullWidth">
+    <div class="middle row table-area" style="height: 600px;">
+      <div class="bg"></div>
+      <div class="row" style="vertical-align:middle;display:table-cell;">
+	  
+        <div class="large-6 medium-7 small-16 columns module already-visible come-in table-area section-600">
+          <div class="valign-text small-only-text-center" style="display:table-cell;vertical-align: middle;">
+            <p>
+			<!--
+			<video id="video-241-2" class="wp-video-shortcode" poster="/wp-content/uploads/2015/01/would-this-technology-be-right-for-me-700x525.png" preload="metadata" controls="controls" width="95%" height="415">fixed=&#8221;no&#8221; src=&#8221;/wp-content/uploads/2015/01/DriveWorksPro.mp4?_=2&#8243;&gt;<source type="video/mp4" src="/wp-content/uploads/2015/01/DriveWorksPro.mp4?_=2" /><a href="/wp-content/uploads/2015/01/DriveWorksPro.mp4">/wp-content/uploads/2015/01/DriveWorksPro.mp4</a></video>
+			-->
+			</p>
+          </div>
+        </div>
+        <div class="large-7 large-offset-2 medium-8 small-15 columns table-area section-600">
+          <div class="valign-text" style="display:table-cell;vertical-align: middle;">
+            <h2><img class="icon-size" src="powerOne.png" alt="" width="55px" /> <strong>nexthermal.com </strong>is powered by Heating Technology</h2>
+<p>Technology can save you time, money and help you gain competitive advantage. Use Nexthermal&#8217;s technology to take your heating technology to a new level and fulfill your company needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-contactus">
+  <div id="fullWidth">
+    <div class="middle row table-area" style="height: 350px;">
+      <div class="row" style="vertical-align:middle;display:table-cell;">
+        <div class="pip pip-grey"></div>
+        <div class="section-contact center-content">
+        <h3><img src="mail sender.png"></br>
+          Get in touch with a Nexthermal expert for more information</h3>
+        </>
+	<a href="#" class="button blue">Request more Info</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+</body>
+<!-- footer -->
+
+</div>
+<!-- important! - This closes the wrapper div -->
+
+<div class="large-16 columns footer-cont show-for-xlarge-up">
+  <div class="row">
+   
+  </div>
+  
+  <!-- copyright -->
+  <p class="copyright center-content">
+    Powered by    <a href="http://www.driveworks.co.uk"><img alt="Icon-driveworks" src="http://www.configuremyproduct.com/wp-content/themes/configuremyproduct/img/driveworks-logo-image.png" width="120" style="padding-bottom:5px;"></a> </br>
+    </br>
+    &copy; 2017 Copyright
+    Configure My Product &#8211; Online Sales Configurator  </p>
+  <!-- /copyright --> 
+</div>
+</div>
+<!-- /wrapper -->
+
+<script type='text/javascript' src='http://www.configuremyproduct.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+
+<!-- analytics --> 
+
+
+<script src="http://www.configuremyproduct.com/wp-content/themes/configuremyproduct/js/foundation.min.js"></script>
+
+<script>
+    window.onload = function() {
+        $(document).foundation();
+};
+</script> 
+
+
+<script>
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 750) {
+    <!--   $('.top-bar-section').addClass('top-bar-section-shrink');  -->
+  <!--  $('.top-bar').addClass('top-bar-section-shrink');   -->
+  
+    $('.nav-bg').addClass('nav-bg-changecolor');
+	$('.logo').addClass('fix-logo-small');
+	$('#scrollUp').fadeIn();
+  } else {
+	$('.logo').removeClass('fix-logo-small');
+    <!-- $('.top-bar-section').removeClass('top-bar-section-shrink');-->
+	$('.nav-bg').removeClass('nav-bg-changecolor');
+	$('#scrollUp').fadeOut();
+     <!--  $('.top-bar').removeClass('top-bar-section-shrink'); -->
+  }
+});
+</script> 
+<script src="/wp-content/themes/configuremyproduct/js/jquery.visible.js"></script>
+
+
+<a id="scrollUp" href="#top"  style="position: fixed; z-index: 999999999999999999;"><img src="/wp-content/themes/configuremyproduct/icons/up.svg" class="icon-size"></a></body></html><script>
+
+ $(document).ready(function(){
+	 
+	 if($(window).width() > 1200){
+	 
+    $('a[href*=#]:not([href^="http"])').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top-95
+        }, 600, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+	 }
+	 
+	   if ( $(window).width() > 640 && $(window).width() <= 1200) {
+	 
+    $('a[href*=#]:not([href^="http"])').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+70
+        }, 600, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+	 }
+	 
+	 
+	 if ( $(window).width() > 480 && $(window).width() <= 640) {
+	 
+    $('a[href*=#]:not([href^="http"])').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+80
+        }, 600, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+	 }
+	
+	 if($(window).width() < 480){
+	 
+    $('a[href*=#]:not([href^="http"])').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+80
+        }, 600, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+	 } 
+	 
+	 
+	 
+	 
+
+});
+
+</script>

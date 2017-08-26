@@ -1,0 +1,18 @@
+<img src="small.jpg" srcset="medium.jpg 1000w, large.jpg 2000w" alt="yah">
+
+
+<img src="image-src.png" srcset="image-1x.png 1x, image-2x.png 2x, image-3x.png 3x, image-4x.png 4x">
+
+Used to set multiple image sizes and images will change according to browser sizes or any user triggers
+
+
+
+When you want to display separate images (or usually, a separate asset of the same image) based on the device-pixel ratio, you’d go with basic srcset implementation:
+	<img src="images/space-needle.jpg" srcset="images/space-needle.jpg 1x, images/space-needle-2x.jpg 2x, images/space-needle-hd.jpg 3x"/>
+
+x descriptor in the srcset attribute is used to define the device-pixel ratio. Hence,
+
+for a device-pixel ratio of 1, the image space-needle.jpg will be used.
+for a device-pixel ratio of 2, the image space-needle-2x.jpg will be used.
+for a device-pixel ratio of 3, the image space-needle-hd.jpg will be used.
+src attribute is used as a fallback for the browsers which do not yet support srcset implementation.
